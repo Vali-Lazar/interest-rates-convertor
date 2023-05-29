@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(25, 117, 4);
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    background-color: rgb(37, 68, 12);
+    margin-top: 100px;
+    padding: 30px;
+    max-width: 640px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    border-radius: 10px;
+}
+
+.container > h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+button {
+    background-color: rgb(4, 4, 4);
+    display: flex;
+    margin: 8px;
+    color: white;
+    font-size: 1em;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+label {
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+    flex-shrink: 1;
+}
+
+input {
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    flex-shrink: 0;
+}
+
+#result {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+}
+
+#total, 
+#total-investment,
+#total-profit {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
